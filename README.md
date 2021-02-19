@@ -1,21 +1,12 @@
-# ds-project-template
-Template for creating ds simple projects 
+# Introduction
+This README aim to give a shot overview on the Real estate market in the USA (King County House Sales) with a focus on Hauses with 4 Bedrooms and above under limited budget.
+At first we will have look on the wohle price market distribution and afterword we will try to define a suitable budget for the requirements above.
+We will also have a look on what the market has to offer and in the end we will share our insights.
 
 
 ## Requirements
 
-* pyenv
-* python==3.8.5
-## Setup
-
-For this purpose you use following commands:
-
-```bash
-python -m venv .venv
-source .venv/bin/activate
-pip install --upgrade pip
-pip install -r requirements.txt
-```
-
-### Remarks
-Data or Models folder content should not be pushed to github.
+* Database:  King_County_House_prices_dataset.csv
+* pimport matplotlib.pyplot as plt
+* import seaborn as sns
+* import statsmodels.api as sms 
